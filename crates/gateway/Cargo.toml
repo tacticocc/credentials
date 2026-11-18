@@ -41,7 +41,7 @@ uuid = { version = "1.26.1", features = ["v7", "std", "serde"] }
 zeroize = { version = "1.9.1", features = ["alloc"] }
 
 [target.'cfg(unix)'.dependencies]
-nix = { version = "0.29", default-features = false, features = ["user"] }
+nix = { version = "0.32", default-features = false, features = ["user"] }
 
 [dev-dependencies]
 rcgen = "0.14"
